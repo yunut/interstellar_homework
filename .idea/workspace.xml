@@ -9,14 +9,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="06085aa0-c60f-40ff-873e-2ec567a1ba54" name="Changes" comment="backend test commit">
-      <change beforePath="$PROJECT_DIR$/.idea/artifacts/interstellar_homework_war_exploded.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/artifacts/interstellar_homework_war_exploded.xml" afterDir="false" />
+    <list default="true" id="06085aa0-c60f-40ff-873e-2ec567a1ba54" name="Changes" comment="table add form change">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/controller/Home.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/controller/Home.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/service/MoneyService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/service/MoneyService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/WEB-INF/views/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/WEB-INF/views/index.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/web/WEB-INF/web.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/web/resources/js/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/web/resources/js/index.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -51,21 +46,21 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "/Users/jys/code/interstellar/interstellar_homework/WEB-INF",
-    "nodejs_package_manager_path": "npm",
-    "project.structure.last.edited": "Modules",
-    "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.53333336",
-    "settings.editor.selected.configurable": "preferences.lookFeel",
-    "spring.configuration.checksum": "a2f02e44f0ec3bd9c82c0e6225ac2b5d"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/jys/code/interstellar/interstellar_homework/WEB-INF&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.53333336&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.lookFeel&quot;,
+    &quot;spring.configuration.checksum&quot;: &quot;a2f02e44f0ec3bd9c82c0e6225ac2b5d&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/WEB-INF" />
@@ -179,7 +174,8 @@
       <option name="presentableId" value="Default" />
       <updated>1665719833927</updated>
       <workItem from="1665719838310" duration="36435000" />
-      <workItem from="1666099751099" duration="6341000" />
+      <workItem from="1666099751099" duration="6723000" />
+      <workItem from="1666164057295" duration="2356000" />
     </task>
     <task id="LOCAL-00001" summary="spring mvc init">
       <created>1665993375318</created>
@@ -195,7 +191,21 @@
       <option name="project" value="LOCAL" />
       <updated>1666079918157</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Implement the coin exchange process&#10;&#10;TODO&#10;Handle validation and perform code refactoring">
+      <created>1666163857764</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1666163857764</updated>
+    </task>
+    <task id="LOCAL-00004" summary="table add form change">
+      <created>1666164842908</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1666164842908</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -215,6 +225,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="spring mvc init" />
     <MESSAGE value="frontEnd init" />
-    <option name="LAST_COMMIT_MESSAGE" value="frontEnd init" />
+    <MESSAGE value="Implement the coin exchange process&#10;&#10;TODO&#10;Handle validation and perform code refactoring" />
+    <MESSAGE value="table add form change" />
+    <option name="LAST_COMMIT_MESSAGE" value="table add form change" />
   </component>
 </project>

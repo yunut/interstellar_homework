@@ -40,8 +40,9 @@ public class MoneyService {
                 answers.add(totalMatchematical);
             }
         }
-
         if(currentCoinIndex >= maxCoinIndex) return;
+
+
         int coinCount = request.getCoins().get(currentCoinIndex).getCount();
         int coinUnit = request.getCoins().get(currentCoinIndex).getUnit();
         for(int i=0;i<=coinCount;i++) {
