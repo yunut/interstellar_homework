@@ -9,15 +9,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="06085aa0-c60f-40ff-873e-2ec567a1ba54" name="Changes" comment="frontEnd init">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/dto/Coin.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/dto/Money.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/service/MoneyService.java" afterDir="false" />
+    <list default="true" id="06085aa0-c60f-40ff-873e-2ec567a1ba54" name="Changes" comment="backend test commit">
       <change beforePath="$PROJECT_DIR$/.idea/artifacts/interstellar_homework_war_exploded.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/artifacts/interstellar_homework_war_exploded.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/controller/home.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/controller/Home.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/controller/Home.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/controller/Home.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/service/MoneyService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/service/MoneyService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/WEB-INF/views/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/WEB-INF/views/index.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/web/WEB-INF/web.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/resources/js/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/web/resources/js/index.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -62,7 +62,8 @@
     "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.53333336",
-    "settings.editor.selected.configurable": "preferences.lookFeel"
+    "settings.editor.selected.configurable": "preferences.lookFeel",
+    "spring.configuration.checksum": "a2f02e44f0ec3bd9c82c0e6225ac2b5d"
   }
 }]]></component>
   <component name="RecentsManager">
@@ -178,6 +179,7 @@
       <option name="presentableId" value="Default" />
       <updated>1665719833927</updated>
       <workItem from="1665719838310" duration="36435000" />
+      <workItem from="1666099751099" duration="6341000" />
     </task>
     <task id="LOCAL-00001" summary="spring mvc init">
       <created>1665993375318</created>
@@ -214,21 +216,5 @@
     <MESSAGE value="spring mvc init" />
     <MESSAGE value="frontEnd init" />
     <option name="LAST_COMMIT_MESSAGE" value="frontEnd init" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/service/MoneyService.java</url>
-          <line>10</line>
-          <option name="timeStamp" value="6" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/service/MoneyService.java</url>
-          <line>21</line>
-          <option name="timeStamp" value="8" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
   </component>
 </project>

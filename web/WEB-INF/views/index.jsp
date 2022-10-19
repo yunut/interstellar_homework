@@ -55,5 +55,8 @@
       </tbody>
     </table>
     <input type='button' id="cal" value="계산" onclick="calCoin()"/>
+    <div id="result">
+
+    </div>
   </body>
 </html>

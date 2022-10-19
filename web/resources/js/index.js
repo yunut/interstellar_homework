@@ -58,7 +58,22 @@ function calCoin() {
         if (xhr.readyState === XMLHttpRequest.DONE) {
             if (xhr.status === 200) {
                 // 출력 구현
-                console.log("연결 성공");
+                var resultDiv = document.getElementById("result");
+                var result = JSON.parse(xhr.response);
+
+                if(document.getElementById("resultArea") != undefined) {
+                    document.getElementById("resultArea").remove();
+                }
+                var nCareer = document.createElement("textarea");
+                nCareer.setAttribute("rows", 5);
+                nCareer.setAttribute("cols", 50);
+                nCareer.setAttribute("id", "resultArea");
+                resultDiv.appendChild(nCareer);
+
+                nCareer.append("총 " + result.num + "가지\n");
+                result.mathematicals.forEach((value, index, array)=>{
+                    nCareer.append(value + "\n");
+                })
             } else {
                 // 실패시  처리 구현
                 console.log("연결 실패");
