@@ -18,9 +18,13 @@ function inputNumberFormat(obj) {
 // + 버튼 클릭 시 가지수 입력 폼 추가
 function addCoinInfo() {
     var table = document.getElementById("coinInfo");
+    var row = table.insertRow(table.rows.length);
 
-    var tr = '<tr><td> <input type=text id="coinUnit" onkeyup=\'inputNumberFormat(this);\' value="" style="width:100px"/></td><td><input type=text id="coinCount" value="" style="width:100px"/></td></tr>';
-    table.innerHTML += tr;
+    var cell1 = row.insertCell(0);
+    var cell2 = row.insertCell(1);
+
+    cell1.innerHTML = "<input type=text id=\"coinUnit\" onKeyUp='inputNumberFormat(this);' value=\"\" style=\"width:100px\"/>";
+    cell2.innerHTML = "<input type=text id=\"coinCount\" value=\"\" style=\"width:100px\"/>";
 }
 
 // - 버튼 클릭 시 입력 폼 삭제
@@ -32,7 +36,7 @@ function delCoinInfo() {
 }
 
 function calCoin() {
-    //XXX 유효성 검사 (input 태그가 비어져있는지, 모두 숫자형식의 데이터가 입력되었는지)
+    //XXX 유효성 검사 (input 태그가 비어져있는지)
     var targetMoney = uncomma(document.getElementById("targetMoney").value);
     var coinInfo = [];
     var table = document.getElementById("coinInfo");
@@ -61,9 +65,11 @@ function calCoin() {
                 var resultDiv = document.getElementById("result");
                 var result = JSON.parse(xhr.response);
 
-                if(document.getElementById("resultArea") != undefined) {
-                    document.getElementById("resultArea").remove();
+                var resultTextArea = document.getElementById("resultArea")
+                if(resultTextArea != undefined) {
+                    resultTextArea.remove();
                 }
+
                 var nCareer = document.createElement("textarea");
                 nCareer.setAttribute("rows", 5);
                 nCareer.setAttribute("cols", 50);
@@ -76,7 +82,7 @@ function calCoin() {
                 })
             } else {
                 // 실패시  처리 구현
-                console.log("연결 실패");
+                console.log("처리 실패");
             }
         }
     }
